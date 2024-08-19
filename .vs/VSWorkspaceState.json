@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config"
   ],
-  "SelectedNode": "\\C:\\Users\\neilc\\Source\\Repos\\zmk-config",
+  "SelectedNode": "\\config\\cradio.keymap",
   "PreviewInSolutionExplorer": false
 }
