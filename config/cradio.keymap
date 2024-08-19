@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-
 #define default 0
 #define number  1
 #define symbol  2
@@ -47,6 +46,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_CYCLE";
             bindings = <&to>, <&to>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200
             quick_tap_ms = <0>;
@@ -60,9 +60,9 @@
 
         default {
             bindings = <
-&kp Q  &kp W           &kp E       &kp R                 &kp T         &kp Y      &kp U             &kp I       &kp O            &kp P
-&kp A  &hm LEFT_WIN S  &hm LALT D  &hm RCTRL T           &kp G         &kp H      &hm LCTRL J       &hm RALT K  &hm RIGHT_WIN L  &kp SEMICOLON
-&kp Z  &kp X           &kp C       &kp V                 &kp B         &kp N      &kp M             &kp COMMA   &kp PERIOD       &kp SLASH
+&kp Q  &kp W           &kp E       &kp R                 &kp T         &kp Y      &kp U        &kp I       &kp O            &kp P
+&kp A  &hm LEFT_WIN S  &hm LALT D  &hm RCTRL T           &kp G         &kp H      &hm LCTRL J  &hm RALT K  &hm RIGHT_WIN L  &kp SEMICOLON
+&kp Z  &kp X           &kp C       &kp V                 &kp B         &kp N      &kp M        &kp COMMA   &kp PERIOD       &kp SLASH
                                    &mt LC(LS(LALT)) SPC  &sk LSHIFT    &sk RCTRL  &lc 1 0
             >;
         };
@@ -87,10 +87,10 @@
 
         navi {
             bindings = <
-&trans               &mwh SCROLL_LEFT  &none            &mwh SCROLL_RIGHT  &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
-&kp F1               &none             &none            &none              &kp DEL      &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT     &kp ENTER
-&td LG(GRAVE) GRAVE  &mkp RCLK         &mwh SCROLL_UP   &mwh SCROLL_DOWN   &trans       &mkp LCLK     &kp PG_DN        &kp K_VOL_DN  &trans        &trans
-                                                        &to 0              &trans       &sk RALT      &to 1
+&trans               &mwh SCROLL_LEFT  &none           &mwh SCROLL_RIGHT  &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
+&kp F1               &none             &none           &none              &kp DEL      &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT     &kp ENTER
+&td LG(GRAVE) GRAVE  &mkp RCLK         &mwh SCROLL_UP  &mwh SCROLL_DOWN   &trans       &mkp LCLK     &kp PG_DN        &kp K_VOL_DN  &trans        &trans
+                                                       &to 0              &trans       &sk RALT      &to 1
             >;
         };
 
@@ -104,4 +104,3 @@
         };
     };
 };
-
