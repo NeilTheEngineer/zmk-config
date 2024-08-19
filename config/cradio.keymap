@@ -9,8 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
-CONFIG_ZMK_MOUSE=y
-
 #define default 0
 #define number  1
 #define symbol  2
@@ -22,10 +20,6 @@ CONFIG_ZMK_MOUSE=y
     tapping_term_ms = <200>;
 };
 
-&mmv {
-    time-to-max-speed-ms = <680>;
-    acceleration-exponent = <2>;
-};
 
 / {
     behaviors {
