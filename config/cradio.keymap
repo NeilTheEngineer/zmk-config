@@ -86,9 +86,9 @@
 
         navi {
             bindings = <
-&trans               &mwh SCROLL_LEFT  &none           &mwh SCROLL_RIGHT  &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
+&trans               &none             &none           &none              &kp NUM_5    &kp LG(LBKT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LG(RBKT)  &trans
 &kp F1               &none             &none           &none              &kp DEL      &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT     &kp ENTER
-&td LG(GRAVE) GRAVE  &mkp RCLK         &mwh SCROLL_UP  &mwh SCROLL_DOWN   &trans       &mkp LCLK     &kp PG_DN        &kp K_VOL_DN  &trans        &trans
+&td LG(GRAVE) GRAVE  &none              &none          &none              &trans       &none         &kp PG_DN        &kp K_VOL_DN  &trans        &trans
                                                        &to 0              &trans       &sk RALT      &to 1
             >;
         };
