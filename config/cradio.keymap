@@ -68,9 +68,9 @@
 
         number {
             bindings = <
-&kp ESC    &kp ATSN    &td LC(LG(LS(N4))) LS(N3)  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_NUMBER_0  &kp KP_NUMBER_7        &kp KP_NUMBER_8            &kp KP_NUMBER_9            &kp MINUS
-&kp TAB    &kp EQUAL   &kp LA(RBKT)               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PERIOD       &hm RCTRL KP_NUMBER_4  &hm RIGHT_ALT KP_NUMBER_5  &hm RIGHT_WIN KP_NUMBER_6  &kp PLUS
-&kp TILDE  &kp LA(N3)  &kp LA(LBKT)               &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp DIVIDE       &kp KP_NUMBER_1        &kp KP_NUMBER_2            &kp KP_NUMBER_3            &kp ASTERISK
+&kp ESC    &kp ATSN    &td LC(LG(LS(N4))) LS(N3)  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp KP_NUMBER_0  &kp KP_NUMBER_7        &kp KP_NUMBER_8            &kp KP_NUMBER_9            &kp KP_MINUS
+&kp TAB    &kp EQUAL   &kp LA(RBKT)               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PERIOD       &hm RCTRL KP_NUMBER_4  &hm RIGHT_ALT KP_NUMBER_5  &hm RIGHT_WIN KP_NUMBER_6  &kp KP_PLUS
+&kp TILDE  &kp LA(N3)  &kp LA(LBKT)               &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp KP_DIVIDE    &kp KP_NUMBER_1        &kp KP_NUMBER_2            &kp KP_NUMBER_3            &kp KP_MULTIPLY
                                                   &to 0                 &sk LSHIFT               &kp SPACE        &lc 0 2
             >;
         };
