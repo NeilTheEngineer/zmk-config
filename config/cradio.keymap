@@ -88,8 +88,8 @@
 
         special_char {
             bindings = <
-&none               &none                   &none                       &kp none                    &kp LS(MINUS)               &kp GB_EXCLAMATION          &kp GB_AMPERSAND        &kp GB_POUND_SIGN           &kp GB_DOLLAR               &none
-&none               &none                   &none                       &kp none                    &kp LS(EQUAL)               &kp GB_DOUBLE_QUOTES        &kp GB_SINGLE_QUOTE     &kp GB_AT_SIGN              &kp GB_HASH                 &none
+&none               &none                   &none                       &none                    &kp LS(MINUS)               &kp GB_EXCLAMATION          &kp GB_AMPERSAND        &kp GB_POUND_SIGN           &kp GB_DOLLAR               &none
+&none               &none                   &none                       &none                    &kp LS(EQUAL)               &kp GB_DOUBLE_QUOTES        &kp GB_SINGLE_QUOTE     &kp GB_AT_SIGN              &kp GB_HASH                 &none
 &none               &none                   &none                       &kp STAR                    &kp DOT                     &kp UNDERSCORE              &kp EQUAL               &kp NON_US_BSLH             &kp TILDE                   &kp CARET
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default navi
             >;
