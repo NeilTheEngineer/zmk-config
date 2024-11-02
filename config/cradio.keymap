@@ -72,34 +72,34 @@
             bindings = <
 &kp GB_Q            &kp W                   &kp GB_E                    &kp GB_R                    &kp GB_T                    &kp GB_Y                    &kp GB_U                &kp GB_I                    &kp GB_O                    &kp GB_P
 &kp GB_A            &hm LEFT_WIN GB_S       &hm LALT GB_D               &hm RCTRL GB_T              &kp GB_G                    &kp GB_H                    &hm LCTRL GB_J          &hm RALT GB_K               &hm RIGHT_WIN GB_L          &kp SEMICOLON
-&tl BLE GB_Z        &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp SLASH
+&tl BLE GB_Z        &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp GB_QUESTION
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default number
             >;
         };
 
         number {
             bindings = <
-&none               &none                   &kp GB_CARET                &kp LEFT_BRACE              &kp RIGHT_BRACE             &kp NUMBER_0                &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp GB_MINUS
-&none               &none                   &none                       &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
-&none               &none                   &none                       &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &kp GB_SLASH                &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp GB_ASTERISK
+&kp GB_NOT          &kp GB_BROKEN_BAR       &kp GB_CARET                &kp GB_LEFT_BRACE           &kp GB_RIGHT_BRACE          &kp NUMBER_0                &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp GB_MINUS
+&none               &kp GB_PIPE             &kp GB_SLASH                &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
+&none               &kp GB_LESS_THAN        &KP GB_GREATER_THAN         &kp GB_LEFT_BRACKET         &kp GB_RIGHT_BRACKET        &kp GB_EQUAL                &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp GB_ASTERISK
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default special_char
             >;
         };
 
         special_char {
             bindings = <
-&none               &none                   &none                       &none                    &kp LS(MINUS)               &kp GB_EXCLAMATION          &kp GB_AMPERSAND        &kp GB_POUND_SIGN           &kp GB_DOLLAR               &none
-&none               &none                   &none                       &none                    &kp LS(EQUAL)               &kp GB_DOUBLE_QUOTES        &kp GB_SINGLE_QUOTE     &kp GB_AT_SIGN              &kp GB_HASH                 &none
-&none               &none                   &none                       &kp STAR                    &kp DOT                     &kp UNDERSCORE              &kp EQUAL               &kp NON_US_BSLH             &kp TILDE                   &kp CARET
+&none               &none                   &none                       &none                       &none                       &kp GB_EXCLAMATION          &kp GB_AMPERSAND        &kp GB_POUND_SIGN           &kp GB_DOLLAR               &GB_EURO
+&none               &none                   &none                       &none                       &none                       &kp GB_DOUBLE_QUOTES        &kp GB_SINGLE_QUOTE     &kp GB_AT_SIGN              &kp GB_HASH                 &kp GB_GRAVE
+&none               &none                   &none                       &none                       &none                       &kp GB_UNDERSCORE           &kp GB_PERCENT          &kp NON_US_BSLH             &kp TILDE                   &none
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default navi
             >;
         };
 
         navi {
             bindings = <
-&none               &none                   &none                       &none                       &kp NUM_5                   &kp LG(LBKT)                &kp F9                  &kp F10                     &kp F11                     &kp F12
-&none               &none                   &none                       &none                       &kp DEL                     &kp LEFT                    &kp F5                  &kp F6                      &kp F7                      &kp F8
-&none               &none                   &none                       &none                       &none                       &kp ESC                     &kp F1                  &kp F2                      &kp F3                      &kp F4
+&kp PAGE_UP        &none                   &kp UP_ARROW                 &none                       &kp K_VOLUME_UP             &kp LG(LBKT)                &kp F9                  &kp F10                     &kp F11                     &kp F12
+&kp PAGE_DOWN      &kp LEFT_ARROW          &kp DOWN_ARROW               &kp RIGHT_ARROW             &kp K_VOLUME_DOWN           &kp LEFT                    &kp F5                  &kp F6                      &kp F7                      &kp F8
+&none              &none                   &none                        &none                       &kp K_MUTE                  &kp ESC                     &kp F1                  &kp F2                      &kp F3                      &kp F4
                                                                         &td DELETE BACKSPACE        &none                       &td GB_SPACE RETURN         &to default
             >;
         };
