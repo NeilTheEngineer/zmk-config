@@ -80,7 +80,7 @@
         number {
             bindings = <
 &none               &none                   &kp GB_CARET                &kp LEFT_BRACE              &kp RIGHT_BRACE             &kp NUMBER_0                &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp GB_MINUS
-&none               &none                   &none                       &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RIALT NUMBER_5          &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
+&none               &none                   &none                       &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
 &none               &none                   &none                       &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &kp GB_SLASH                &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp GB_ASTERISK
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default special_char
             >;
