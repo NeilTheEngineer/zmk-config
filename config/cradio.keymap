@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "TAPDANCE";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -49,7 +49,7 @@
             tapping-term-ms = <200>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&mo>;
+            bindings = <&kp>, <&to>;
         };
 
         lc: Layer_cycle {
@@ -70,7 +70,7 @@
             bindings = <
 &kp GB_Q            &kp W                   &kp GB_E                    &kp GB_R                    &kp GB_T                    &kp GB_Y                    &kp GB_U                &kp GB_I                    &kp GB_O                    &kp GB_P
 &kp GB_A            &hm LEFT_WIN GB_S       &hm LALT GB_D               &hm RCTRL GB_T              &kp GB_G                    &kp GB_H                    &hm LCTRL GB_J          &hm RALT GB_K               &hm RIGHT_WIN GB_L          &kp SEMICOLON
-&tl BLE GB_Z        &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp GB_QUESTION
+&tl GB_Z BLE        &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp GB_QUESTION
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default number
             >;
         };
@@ -80,7 +80,7 @@
 &kp GB_NOT          &kp GB_BROKEN_BAR       &kp GB_CARET                &kp GB_LEFT_BRACE           &kp GB_RIGHT_BRACE          &kp NUMBER_0                &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp GB_MINUS
 &none               &kp GB_PIPE             &kp GB_SLASH                &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
 &none               &kp GB_LESS_THAN        &kp GB_GREATER_THAN         &kp GB_LEFT_BRACKET         &kp GB_RIGHT_BRACKET        &kp GB_EQUAL                &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp GB_ASTERISK
-                                                                        &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default special_char
+                                                                        &td DELETE BACKSPACE        &sk LSHIFT                  &td RETURN GB_SPACE         &lc default special_char
             >;
         };
 
