@@ -50,7 +50,6 @@
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&mo>;
-            hold-trigger-key-positions = <33>;
         };
 
         lc: Layer_cycle {
@@ -61,7 +60,6 @@
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&to>, <&to>;
-            hold-trigger-key-positions = <33>;
         };
     };
 
