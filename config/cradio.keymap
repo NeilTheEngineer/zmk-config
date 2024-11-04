@@ -78,7 +78,7 @@
         number {
             bindings = <
 &kp GB_NOT          &kp GB_BROKEN_BAR       &kp GB_CARET                &kp GB_LEFT_BRACE           &kp GB_RIGHT_BRACE          &kp NUMBER_0                &kp NUMBER_7            &kp NUMBER_8                &kp NUMBER_9              &kp GB_MINUS
-&kp GB_PIPE         &kp GB_BACKSLA          &kp GB_SLASH                &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
+&kp GB_PIPE         &kp GB_BACKSLASH        &kp GB_SLASH                &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS       &kp PERIOD                  &hm RCTRL NUMBER_4      &hm RALT NUMBER_5           &hm RIGHT_WIN NUMBER_6    &kp GB_PLUS
 &none               &kp GB_LESS_THAN        &kp GB_GREATER_THAN         &kp GB_LEFT_BRACKET         &kp GB_RIGHT_BRACKET        &kp GB_EQUAL                &kp NUMBER_1            &kp NUMBER_2                &kp NUMBER_3              &kp GB_ASTERISK
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td RETURN GB_SPACE         &lc default special_char
             >;
