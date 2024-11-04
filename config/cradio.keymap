@@ -69,8 +69,8 @@
         default {
             bindings = <
 &kp GB_Q            &kp W                   &kp GB_E                    &kp GB_R                    &kp GB_T                    &kp GB_Y                    &kp GB_U                &kp GB_I                    &kp GB_O                    &kp GB_P
-&kp GB_A            &hm LEFT_WIN GB_S       &hm LALT GB_D               &hm RCTRL GB_T              &kp GB_G                    &kp GB_H                    &hm LCTRL GB_J          &hm RALT GB_K               &hm RIGHT_WIN GB_L          &kp SEMICOLON
-&tl BLE GB_Z        &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp GB_QUESTION
+&kp GB_A            &hm LEFT_WIN GB_S       &hm LALT GB_D               &hm RCTRL GB_F              &kp GB_G                    &kp GB_H                    &hm LCTRL GB_J          &hm RALT GB_K               &hm RIGHT_WIN GB_L          &kp SEMICOLON
+&tl BLE Z           &kp GB_X                &kp GB_C                    &kp GB_V                    &kp GB_B                    &kp GB_N                    &kp GB_M                &kp COMMA                   &kp GB_PERIOD               &kp GB_QUESTION
                                                                         &td DELETE BACKSPACE        &sk LSHIFT                  &td GB_SPACE RETURN         &lc default number
             >;
         };
@@ -107,8 +107,7 @@
 &none               &bt BT_CLR              &bt BT_CLR_ALL              &none                       &none                       &none                       &none                   &none                       &none                       &none
 &none               &bt BT_DISC 0           &bt BT_DISC 1               &bt BT_DISC 2               &bt BT_DISC 3               &none                       &none                   &none                       &none                       &none
 &none               &bt BT_SEL 0            &bt BT_SEL 1                &bt BT_SEL 2                &bt BT_SEL 3                &none                       &none                   &none                       &none                       &none  
-                                                                        &none                       &none                       &none                       &none
-            >;
+             >;
         };
     };
 };
